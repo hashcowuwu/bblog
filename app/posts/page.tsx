@@ -1,7 +1,9 @@
+import BlogPoster from "../components/BlogPoster"
 export default function Page() {
     return (
-        <p>
-            posts in here
-        </p>
+
+        <div>
+            <BlogPoster />
+        </div>
     )
 }

@@ -6,6 +6,7 @@ const Header:React.FC = () => {
         <div className="flex flex-row bg-white mx-6">
         <KindTitle title="about"/>
         <KindTitle title="posts"/>
+        <KindTitle title="github"/>
         </div>
     );
 };
