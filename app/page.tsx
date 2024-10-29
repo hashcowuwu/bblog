@@ -13,7 +13,7 @@ export default function Home() {
           alt="image"
         />
         </div>
-        <div className="font-mono  w-full m-9 h-full flex">
+        <div className="font-mono  w-full m-9 h-full ">
           <p className="font-mono">
             This website is based on Next.Js
           </p>
