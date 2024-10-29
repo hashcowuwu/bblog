@@ -10,7 +10,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className="relative h-full">
+        <div className="static">
         <Header />
          {children}
         <Footer />
