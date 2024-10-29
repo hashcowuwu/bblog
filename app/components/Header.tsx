@@ -3,7 +3,7 @@ import KindTitle from "./KindTitle";
 
 const Header:React.FC = () => {
     return(
-        <div className="flex flex-row bg-white mx-6">
+        <div className="flex flex-row backdrop-blur-sm bg-white/30 mx-6">
         <KindTitle title="about" link="/"/>
         <KindTitle title="posts" link="/posts"/>
         </div>

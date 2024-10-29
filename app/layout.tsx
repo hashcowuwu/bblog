@@ -10,7 +10,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className="static">
+        <div className="static bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ">
         <Header />
          {children}
         <Footer />
