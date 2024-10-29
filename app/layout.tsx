@@ -10,9 +10,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <div className="relative h-full">
         <Header />
-          {children}
+         {children}
         <Footer />
+        </div>
       </body>
     </html>
   );
