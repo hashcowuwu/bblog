@@ -10,11 +10,11 @@ interface PosterProps{
 
 const Poster:React.FC<PosterProps> = ({title,preface}) => {
     return (
-        <div className="drop-shadow-lg hover:drop-shadow-2xl h-30 ">
-            <div className="h-4 font-mono font-bold ">
+        <div className="drop-shadow-lg hover:drop-shadow-2xl h-64 m-4 bg-slate-300 ">
+            <div className="h-4 font-mono font-bold m-4">
                 {title}
             </div>
-            <div className="h-9 font-mono font-light my-2 ">
+            <div className="h-18 font-mono font-light my-2 mx-4">
                 {preface}
             </div>
         </div>

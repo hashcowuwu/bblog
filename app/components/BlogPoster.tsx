@@ -11,7 +11,13 @@ interface BlogPosterProps{
 
 const BlogPoster:React.FC = () => {
     return (
-        <div className="bg-white m-32 w-full h-full ">
+        <div className="bg-white m-32 grid grid-cols-2 gap-4 ">
+            <Poster title=" I first try to rewrite blog" preface="I first try to rewrite blog" />
+            <Poster title=" I first try to rewrite blog" preface="I first try to rewrite blog" />
+            <Poster title=" I first try to rewrite blog" preface="I first try to rewrite blog" />
+            <Poster title=" I first try to rewrite blog" preface="I first try to rewrite blog" />
+            <Poster title=" I first try to rewrite blog" preface="I first try to rewrite blog" />
+            <Poster title=" I first try to rewrite blog" preface="I first try to rewrite blog" />
             <Poster title=" I first try to rewrite blog" preface="I first try to rewrite blog" />
         </div>
     );
