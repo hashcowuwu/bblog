@@ -24,9 +24,9 @@ export default function Home() {
         </div>
       </div>
       <div className="grid grid-rows-3 grid-flow-col gap-8 m-64 ">
-        <div className="row-span-3 backdrop-blur-sm  bg-cyan-500/30 shadow-lg shadow-cyan-500/50  drop-shadow-xl hover:drop-shadow-2xl font-mono">01</div>
-        <div className="col-span-2 h-64 backdrop-blur-sm bg-blue-500/30 shadow-lg shadow-blue-500/50 drop-shadow-xl hover:drop-shadow-2xl font-mono">02</div>
-        <div className="row-span-2 col-span-2 backdrop-blur-sm bg-indigo-500/30 shadow-lg shadow-indigo-500/50 drop-shadow-xl hover:drop-shadow-2xl font-mono">03</div>
+        <div className="row-span-3 backdrop-blur-sm  bg-cyan-500/30 shadow-lg shadow-cyan-500/60  drop-shadow-xl hover:drop-shadow-2xl font-mono">01</div>
+        <div className="col-span-2 h-64 backdrop-blur-sm bg-blue-500/30 shadow-lg shadow-blue-500/60 drop-shadow-xl hover:drop-shadow-2xl font-mono">02</div>
+        <div className="row-span-2 col-span-2 backdrop-blur-sm bg-indigo-500/30 shadow-lg shadow-indigo-500/60 drop-shadow-xl hover:drop-shadow-2xl font-mono">03</div>
       </div>
     </div>
   );
