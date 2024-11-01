@@ -6,5 +6,6 @@ export default function Page() {
             <BlogPoster />
         </div>
     </div>
+
     )
 }
