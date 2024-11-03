@@ -1,7 +1,7 @@
 import React from 'react'
 import {createRoot} from 'react-dom/client'
 import Markdown from 'react-markdown'
-import BlogPoster from '@/app/components/BlogPoster'
+import ExBlogPoster from '@/app/components/ExBlogPoster'
 
 const markdown = '# Hi, *Pluto*!'
 
@@ -13,7 +13,7 @@ export default async function Page ({
   const slug  = (await params).slug
   return (
   <div>
-    <BlogPoster/>
+    <ExBlogPoster/>
     {slug}
     <Markdown>{markdown}</Markdown>
   </div>
