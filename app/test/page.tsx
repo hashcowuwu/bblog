@@ -17,6 +17,7 @@ export default function MyPage() {
 
   // Use the fetched data in your component
   if (data) {
+    console.log("====");
     return <div dangerouslySetInnerHTML={{ __html: data }} />; // Be cautious with raw HTML
   }
 
