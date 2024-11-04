@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react'; // For client-side data fetching
 
 export default function MyPage() {
-  const [data, setData] = useState(null);
+  const [data, setData] = useState<String|null>(null);
 
   useEffect(() => {
     const fetchData = async () => {
