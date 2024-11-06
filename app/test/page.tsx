@@ -6,8 +6,9 @@ export default function MyPage() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const filePath = 'app/content/post.md'; // Replace with your actual path
+      const filePath = 'post.md'; // Replace with your actual path
       const res = await fetch(filePath); // Fetch from a URL or local file
+      console.log(res);
       const data = await res.text();
       setData(data);
     };
