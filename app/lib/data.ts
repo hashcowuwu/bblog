@@ -1,1 +1,1 @@
-import postg
+'use server'
